@@ -1,0 +1,291 @@
+
+.caja {
+    position: relative;
+    text-align: center;
+   
+}
+
+/*
+PARTE 1 MENU SUPERIOR
+*/
+.div1
+{
+ background-color: white;
+ width:200%;
+ height:50px;
+
+}
+
+.imagen1
+{
+  height:50px; width:50px;  position:absolute;  top:0%; left:0%;
+}
+.texto1{
+    position: absolute;
+    color:black;
+    top: 45%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+       cursor: pointer; 
+    
+}
+
+.texto2{
+    position: absolute;
+    color:black;
+    top: 45%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+       cursor: pointer; 
+    
+}
+
+.texto3{
+    position: absolute;
+    color:black;
+    top: 45%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+       cursor: pointer; 
+    
+}
+.button1
+{
+     background-color:orange;
+
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+ 
+    font-size: 20px;
+        position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+     font-family: Arial, Helvetica, sans-serif;
+      cursor: pointer; 
+     border-radius: 50px;
+    
+}
+
+/*
+PARTE 2 DE LA FOTO DE COMIDA
+*/
+.div2
+{
+  
+ background:url("https://www.liverpool-one.com/wp-content/uploads/2016/10/turtle-bay.jpg");
+ background-size: cover;
+ width:100%;
+ height:80%;
+ border:20px;
+ border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+
+}
+
+.texto4{
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-family:Impact;
+    font-size: 100px;
+    
+}
+
+
+.layerdeDaniel{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+/*
+PARTE 3 SOBRE MI
+*/
+
+.div3
+{
+  
+ width:100%;
+ height:100%;
+
+}
+
+.texto5{
+    position: absolute;
+    color:black;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  font-family:Impact;
+    font-size: 50px;
+    
+}
+
+.parrafo
+{
+  text-align: left;
+  position:absolute;
+  top:30%;
+  left:2%;
+  font-family:Tahoma;
+}
+
+.Foto{
+  background: url("https://scontent.fmex4-1.fna.fbcdn.net/v/t1.0-9/22046620_1679130175484352_2097866010457561805_n.jpg?oh=6a72e103d474d50fe9e72c67e7e4634d&oe=5B0A5D8D");
+  position: absolute;
+  top:15%;
+  right:10%;
+background-size:cover;
+  width: 400px;
+  height:400px;
+}
+
+/*
+PARTE 3 SERVICIOS
+*/
+
+.div4
+{
+  
+ width:100%;
+ height:75%;
+
+}
+.texto6{
+    position: absolute;
+    color:black;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+  font-family:Impact;
+    font-size: 50px;
+    
+}
+
+.Foto2{
+  background: url("http://www.childit.gr/wp-content/uploads/2017/03/toddler-veggies.jpg");
+  position: absolute;
+  top:25%;
+  left:5%;
+background-size:contain;
+background-repeat: no-repeat;
+  width: 200px;
+  height:200px;
+}
+
+.Foto3{
+  background: url("http://www.miniklerindunyasi.com/wp-content/uploads/2014/04/hamilelikte-diyet.jpg");
+  position: absolute;
+  top:25%;
+  left:40%;
+background-size:contain;
+background-repeat: no-repeat;
+  width: 200px;
+  height:200px;
+}
+
+.Foto4{
+  background: url("https://trainingym.com/blog/wp-content/uploads/2017/01/vuelta_rutina_deporte.png");
+  position: absolute;
+  top:25%;
+  left:75%;
+background-size:contain;
+background-repeat: no-repeat;
+  width: 200px;
+  height:200px;
+}
+
+.parrafo1
+{
+  text-align: justify;
+  position:absolute;
+  top:55%;
+  left:5%;;
+  font-family:Arial;
+  font-size: 65%;
+}
+
+.parrafo2
+{
+  text-align: justify;
+  position:absolute;
+  top:55%;
+  left:40%;
+    font-family:Arial;
+  font-size: 65%;
+}
+
+.parrafo3
+{
+  text-align: justify;
+  position:absolute;
+   top:55%;
+  left:75%;
+    font-family:Arial;
+  font-size: 65%;
+}
+
+/*
+PARTE 4 TESTIMONIO
+*/
+
+.texto7{
+    position: absolute;
+    color:red;
+    text-align: right;
+    top: 10%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+  font-family:Impact;
+    font-size: 50px;
+    
+}
+
+.texto8{
+    position: absolute;
+    color:black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-family:Helvetica;
+    font-size: 30px;
+    
+}
+
+/*
+PARTE 5 CONTACTAME
+*/
+
+.div5
+{
+  background-color: orange;
+ width:100%;
+ height:55%;
+
+}
+
+.texto9{
+    position: absolute;
+    color:white;
+    top: 10;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-family:Impact;
+    font-size: 44px;
+    
+}
